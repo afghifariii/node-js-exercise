@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8">
+    <title>Websocket</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Websocket</h1>
+
+    <div class="messages"></div>
+    <div class="username">
+        <input type "text" id="username" placeholder="Type Username Here" />
+    </div>
+    <form action="javascript:void(0)">
+        <label for="message">&gt;</label>
+        <input type="text" id="message" required autofocus placeholder="Type Messages here" autocomplete="off"/>
+    </form>
+    <script src="js/socket.io-client.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
