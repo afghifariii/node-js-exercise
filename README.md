@@ -5,5 +5,5 @@ Create chat app, wich when you send message it will show the username: "You", th
 
 # To Install
 * use `npm install` first
-* `node start` to start
+* `node sio-server` to start
 * will be run on `http://localhost:3000`
